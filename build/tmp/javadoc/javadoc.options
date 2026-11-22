@@ -1,0 +1,17 @@
+-classpath '/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/build/classes/java/main:/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/build/resources/main'
+-quiet 
+-d '/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/build/docs/javadoc'
+-windowtitle 'library-gradle API'
+-doctitle 'library-gradle API'
+-notimestamp 
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/ui/Main.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/BookNotFoundException.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/Material.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/LoanNotFoundException.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/Customer.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/LoanAlreadyExistsException.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/Loan.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/BookCatalog.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/models/Book.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/utilities/LoanStatus.java'
+'/Users/stefan/Documents/personal/yrgo/ht-26/utv/inl/library-gradle/src/main/java/dev/stefanmarkan/utilities/GenderType.java'

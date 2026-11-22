@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.stefanmarkan.BookCatalogTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:21:21.337Z" hostname="macbook.local" time="0.063">
+  <properties/>
+  <testcase name="testAddABook()" classname="dev.stefanmarkan.BookCatalogTest" time="0.012"/>
+  <testcase name="testFindBook()" classname="dev.stefanmarkan.BookCatalogTest" time="0.002"/>
+  <testcase name="testFindBookIgnoringCase()" classname="dev.stefanmarkan.BookCatalogTest" time="0.001"/>
+  <testcase name="[1] &quot;Learning Java&quot;" classname="dev.stefanmarkan.BookCatalogTest" time="0.003"/>
+  <testcase name="[2] &quot;learning java&quot;" classname="dev.stefanmarkan.BookCatalogTest" time="0.0"/>
+  <testcase name="[3] &quot;LEARNING JAVA&quot;" classname="dev.stefanmarkan.BookCatalogTest" time="0.0"/>
+  <testcase name="[4] &quot;LeArNiNg JaVa&quot;" classname="dev.stefanmarkan.BookCatalogTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionWhenCatalogIsEmpty()" classname="dev.stefanmarkan.BookCatalogTest" time="0.001"/>
+  <testcase name="testFindBookWithExtraSpaces()" classname="dev.stefanmarkan.BookCatalogTest" time="0.0"/>
+  <testcase name="testFindBookThatDoesntExist()" classname="dev.stefanmarkan.BookCatalogTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

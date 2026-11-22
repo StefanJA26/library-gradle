@@ -1,0 +1,34 @@
+Gradle kommandon som jag använt i projektet.
+
+gradle init
+  initiera gradle projektet som ett basic project, med samma namn som foldern
+  samt groovy som språk för build.gradle
+
+./gradlew tasks
+  listar alla tasks som finns tillgänliga
+
+./gradlew test
+  kör tester och skapar rapporter som läggs till i build/reports/tests/test
+
+./gradlew clean
+  Ta bort Gradles build/ mapp
+
+./gradlew jar
+  Packa ihop projektet till en jar fil
+
+./gradlew run
+  Kör applicationen som är definierad i build.gradle
+
+./gradlew build
+  Bygger projektet, kör tester och packar in det i en .jar fil.
+  Då javadoc inte är inkluderat i detta steg, och uppgiften är såpass liten
+  så la jag till en dependsOn('javadoc') för build tasken, så javadoc automatiskt
+  också genereras varje gång jag kör build. Kanske inte att rekommendera för större
+  projekt men i det här fallet känns det som en najs feature så man inte missar.
+
+./gradlew javadoc
+  Generera Javadoc för projektet, filerna läggs till i build/docs/javadoc
+
+./gradlew --version
+  Visar vilken version av Gradle som används samt även JVM-version + annat smått och gott.
+
